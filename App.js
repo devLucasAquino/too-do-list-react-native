@@ -7,6 +7,7 @@ import {
   Button, 
   FlatList,
   } from 'react-native';
+
   
   import GoalItem from './components/GoalItem';
 
@@ -47,7 +48,7 @@ export default function App() {
       <View  style={styles.goalsContainer}>
         <FlatList data={courseGoals} renderItem={ (itemData) => {
           return(
-            <GoalItem itemData={itemData}/>
+            <GoalItem text={itemData.item.text}/>
           )
         }} 
         keyExtractor={(item, index) => {
