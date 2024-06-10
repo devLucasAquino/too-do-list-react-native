@@ -4,6 +4,7 @@
     "slug": "fisrt-app",
     "version": "1.0.0",
     "orientation": "portrait",
+    "backgroundColor": "#1e085a",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
